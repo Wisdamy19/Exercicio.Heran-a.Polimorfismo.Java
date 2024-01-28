@@ -52,7 +52,7 @@ public class Program {
                 UsedProduct usedProduct = new UsedProduct(name, price, manufactureDate);
                 list.add(new UsedProduct(name, price, manufactureDate));
             }
-            else System.out.println("Type it a valid Category.");
+            else System.out.println("Type a valid Category.");
         }
         System.out.println("PRICE TAGS: ");
         for (Product item : list){
